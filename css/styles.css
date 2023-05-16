@@ -538,6 +538,9 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 .callout--primary {
@@ -811,4 +814,31 @@ a {
     max-width: 700px;
   }
 }
-/* Testimonials Block */
+/* Gallery Block */
+
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery img:nth-of-type(3) {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+}
