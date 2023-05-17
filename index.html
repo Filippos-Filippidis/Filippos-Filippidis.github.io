@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filippos Filippidis</title>
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/png" href="/images/favicon1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/9baee00d1c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -55,7 +56,7 @@
         </div>
     </section>
     <!-- PROFESSIONAL EXPERIENCE-->
-    <section class="block container">
+    <section class="block container" data-aos="zoom-in">
         <header class="block__header">
           <h2>Professional Experience</h2>
           <p>
@@ -81,7 +82,7 @@
         </header>
       </section>
       <!-- TUMBLR -->
-    <div class="callout callout--primary">
+    <div class="callout callout--primary" data-aos="fade-right">
       <div class="container grid grid--1x2">
         <div class="callout__content">
           <h2 class="callout__heading">These are my online journals:</h2>
@@ -90,28 +91,80 @@
           </p>
         </div>
         <list class="list nav__list">
-          <li class="nav__item"><a href="https://www.tumblr.com/filipposfilippidis"><i class="fa-solid fa-code fa-2xl"></i></a></li>
-          <li class="nav__item"><a href="https://www.tumblr.com/filipposfilippidis"><i class="fa-regular fa-book fa-2xl"></i></a></li>
-          <li class="nav__item"><a href="https://www.tumblr.com/filipposfilippidis-bookmarks"><i class="fa-regular fa-book-bookmark fa-2xl"></i></a></li>
-          <li class="nav__item"><a href="https://filipposfilippidis-photos.tumblr.com/"><i class="fa-regular fa-images fa-2xl"></i></a></li>
+          <li class="nav__item"><a href="https://filipposfilippidis.tumblr.com" target="blank"><i class="fa-solid fa-code fa-2xl"></i></a></li>
+          <li class="nav__item"><a href="https://filipposfilippidis.tumblr.com" target="blank"><i class="fa-regular fa-book fa-2xl"></i></a></li>
+          <li class="nav__item"><a href="https://filipposfilippidis-bookmarks.tumblr.com" target="blank"><i class="fa-regular fa-book-bookmark fa-2xl"></i></a></li>
+          <li class="nav__item"><a href="https://filipposfilippidis-photos.tumblr.com/" target="blank"><i class="fa-regular fa-images fa-2xl"></i></a></li>
       </list>
       </div>
     </div>
         <!-- TEACHING -->
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block block--dark block--skewed-right block-showcase" data-aos="flip-left">
         <header class="block__header container">
           <h2>Teaching</h2>
           <p>
             My interest in exploring and questioning new ways of working has led me into teaching. 
             Below is a sample of student work produced over the years at various institutions and workshops around the world.
           </p>
-          <div class="gallery">
-            <img src="https://source.unsplash.com/collection/190727/800x600?1" />
+          <div class="pContainer">
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="/images/fp/2.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="/images/fp/3.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="/images/fp/4.jpeg" style="width:100%">
+            </div>
+              
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="/images/fp/5.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="/images/fp/6.jpeg" style="width:100%">
+            </div>
+              
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="/images/fp/jexterior.jpeg" style="width:100%">
+            </div>
+              
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="/images/fp/2.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="/images/fp/3.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="/images/fp/4.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="/images/fp/5.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="/images/fp/6.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+              </div>    
+              <div class="column">
+                <img class="demo cursor" src="/images/fp/jexterior.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+              </div>
+            </div>
           </div>
         </header>
       </section>
       <!-- MUSIC EXPERIENCE-->
-    <section class="block container">
+    <section class="block container" data-aos="zoom-in">
         <header class="block__header">
           <h2>Music</h2>
           <p>
@@ -121,7 +174,7 @@
         </header>
       </section>
     <!-- CONNECT -->
-    <div class="callout callout--primary">
+    <div class="callout callout--primary" data-aos="fade-left">
         <div class="container grid grid--1x2">
           <div class="callout__content">
             <h2 class="callout__heading" >Want to connect?</h2>
@@ -142,11 +195,20 @@
     <footer class="block block--dark footer">
         <div class="container grid footer__sections">
           <section class="footer__brand">
-            <img src="images/logo.svg" alt=""/>
-            <p class="footer__copyright"><i class="fa-regular fa-copyright"></i> Filippos Filippidis</p>
+            <div>
+              <img src="images/logo.svg" alt=""/>
+            </div>
+            <div class="copyright">
+              <p class="footer__copyright"><i class="fa-regular fa-copyright"></i> Filippos Filippidis</p>
+            </div>
           </section>
         </div>
       </footer>
 </body>
 <script src="js/main.js"></script>
+<script src="js/pg1.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
