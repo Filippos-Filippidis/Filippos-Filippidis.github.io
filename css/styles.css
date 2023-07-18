@@ -554,6 +554,13 @@ a {
   font-size: 3rem;
 }
 
+.callout__heading1 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
 .callout .btn {
   justify-self: center;
   align-self: center;
@@ -666,7 +673,7 @@ a {
 }
 
 .nav__item {
-  padding: 0.5rem 2rem;
+  padding: 2rem 2rem;
   border-bottom: 1px solid #222;
 }
 
@@ -692,7 +699,7 @@ a {
 }
 
 .nav__brand {
-  transform: translateY(5px);
+  transform: translateY(px);
 }
 
 @media screen and (min-width: 768px) {
